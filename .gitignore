@@ -1,0 +1,61 @@
+# ===============================
+# Python cache & compiled files
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ===============================
+# Virtual environments
+# (NEVER commit these)
+# ===============================
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# ===============================
+# VS Code settings
+# ===============================
+.vscode/
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ===============================
+# OS / Editor junk
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Logs & runtime files
+# ===============================
+*.log
+*.sqlite3
+
+# ===============================
+# Build / distribution
+# ===============================
+build/
+dist/
+*.egg-info/
+
+# ===============================
+# Testing / coverage
+# ===============================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ===============================
+# Jupyter
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# Secrets (YOU mess this up once, it's permanent)
+# ===============================
+.env
+.env.*
